@@ -8,7 +8,7 @@ public class Carro {
     private int marcha;
     private boolean ligado;
 
-    // Construtor
+
     public Carro(String modelo, double aceleracao) {
         this.modelo = modelo;
         this.aceleracao = aceleracao;
@@ -68,7 +68,7 @@ public class Carro {
         }while (funcao!=9);
     }
 
-    // Métodos para ligar e desligar o carro
+
     public void ligar() {
         ligado = true;
         System.out.println("Carro ligado.");
@@ -80,7 +80,7 @@ public class Carro {
         this.marcha=0;
     }
 
-    // Métodos para acelerar e desacelerar
+
     public void acelerar() {
         if (ligado) {
             velocidade += aceleracao;
@@ -102,7 +102,7 @@ public class Carro {
         }
     }
 
-    // Métodos para virar à esquerda e à direita
+
     public void virarEsquerda() {
         if (ligado) {
             System.out.println("Carro virando à esquerda.");
@@ -119,7 +119,7 @@ public class Carro {
         }
     }
 
-    // Métodos para mudar a marcha para cima e para baixo
+
     public void marchaCima() {
         if (ligado) {
             marcha++;
