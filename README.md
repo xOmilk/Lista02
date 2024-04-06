@@ -1,2 +1,2 @@
 # Lista02
-segunda lista de atividades cleber
+Lista de Atividades de lp2
