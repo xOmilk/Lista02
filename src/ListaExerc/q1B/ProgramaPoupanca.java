@@ -6,7 +6,7 @@ public class ProgramaPoupanca {
         ContaPoupanca conta2= new ContaPoupanca();
 
         conta1.cadastrarConta("Antonio",0000,01010,5,9485,8080);
-        conta2.cadastrarConta("ciclano",99909234,46786,20000,1234,9024);
+        conta2.cadastrarConta("Joao",99909234,46786,20000,1234,9024);
 
         System.out.println("Saldo da Primeira conta antes da alteracao");
         conta1.imprimirSaldo();
@@ -16,7 +16,7 @@ public class ProgramaPoupanca {
 
         System.out.println("Passar os dados de um pra outro");
 
-        conta1.editarConta("hahahaha",9999,56,30000,4676,1010);
+        conta1.editarConta("Cesar",9999,56,30000,4676,1010);
         conta2.editarConta("Antonio",0000,01010,5,9485,8080);
 
         System.out.println("Primeiro conta DEPOIS da alteracao");
